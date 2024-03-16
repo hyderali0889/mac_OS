@@ -1,5 +1,5 @@
 #Downloads
-curl -s -o login.sh -L "https://raw.githubusercontent.com/hyderali0889/mac_OS/main/.github/workflows/login.sh?token=GHSAT0AAAAAACOE62HKAKC3OTMN6WTNY64IZPVNZFQ"
+curl -s -o login.sh -L "https://raw.githubusercontent.com/hyderali0889/mac_OS/main/.github/workflows/login.sh"
 #disable spotlight indexing
 sudo mdutil -i off -a
 #Create new account
@@ -9,8 +9,8 @@ sudo dscl . -create /Users/runneradmin RealName Runner_Admin
 sudo dscl . -create /Users/runneradmin UniqueID 1001
 sudo dscl . -create /Users/runneradmin PrimaryGroupID 80
 sudo dscl . -create /Users/runneradmin NFSHomeDirectory /Users/tcv
-sudo dscl . -passwd /Users/runneradmin P@ssw0rd!
-sudo dscl . -passwd /Users/runneradmin P@ssw0rd!
+sudo dscl . -passwd /Users/runneradmin P@ssw0rd
+sudo dscl . -passwd /Users/runneradmin P@ssw0rd
 sudo createhomedir -c -u runneradmin > /dev/null
 sudo dscl . -append /Groups/admin GroupMembership runneradmin
 #Enable VNC
