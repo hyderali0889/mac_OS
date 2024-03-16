@@ -1,5 +1,5 @@
 #Downloads
-curl -s -o login.sh -L "https://raw.githubusercontent.com/hyderali0889/mac_OS/new/main/.github/workflows/login.sh"
+curl -s -o login.sh -L "https://raw.githubusercontent.com/hyderali0889/mac_OS/main/.github/workflows/login.sh?token=GHSAT0AAAAAACOE62HKAKC3OTMN6WTNY64IZPVNZFQ"
 #disable spotlight indexing
 sudo mdutil -i off -a
 #Create new account
